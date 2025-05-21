@@ -21,9 +21,9 @@ class Konyvtar:
                 self.konyvek.append(konyv(nev, szul_ev, hal_ev, nemzetiseg, cim, helyezes))
         
     def db(self):
-        print(len(self.konyvek))
+        print("3.2. feladat: Az állománybban",len(self.konyvek), "db könyv adatai szerepelnek.")
 tar = Konyvtar()
-print(tar.db())
-print("2")
+tar.db()
+
 
             
