@@ -19,6 +19,11 @@ class Konyvtar:
                 helyezes = adatok[5]
 
                 self.konyvek.append(konyv(nev, szul_ev, hal_ev, nemzetiseg, cim, helyezes))
+        
+    def db(self):
+        print(len(self.konyvek))
 tar = Konyvtar()
-print(tar.konyvek)
+print(tar.db())
+print("2")
+
             
