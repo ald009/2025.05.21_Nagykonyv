@@ -6,5 +6,3 @@ class konyv:
         self.nemzetiseg = nemzetiseg
         self.cim = cim
         self.helyezes = helyezes
-
-with open(konyvek.txt , r+, encoding)
